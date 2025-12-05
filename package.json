@@ -1,0 +1,19 @@
+{
+  "name": "number-info",
+  "version": "1.0.0",
+  "description": "Number information lookup tool",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Build completed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["number", "info", "lookup", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "vercel": "^33.0.0"
+  }
+}
